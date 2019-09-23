@@ -5,7 +5,7 @@ metadata:
 spec:
    containers:
    - name: machineinfo-container01
-     image: deepakbedase/machineinfo_env:v1.1.0
+     image: mysql
      envFrom:
         - configMapRef:
             name: colorconfig
